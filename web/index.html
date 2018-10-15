@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro de banco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body><form action="/prova/tudo" method="POST">
+        
+        <select name="op" size="3">
+            <option value="1">Cadastrar nova conta</option>
+            <option value="2">Cadastrar cred. ou deb.</option>
+            <option value="3">extrato da conta</option>
+        </select>
+        <h1>Dados</h1>
+        Conta:
+        <input type="text" name="conta" value="" />
+        cpf:
+        <input type="text" name="cpf" value="" />
+        Valor
+        <input type="text" name="valor" value="" />
+        
+        <input type="submit" value="enviar" />
+        </form>
+    </body>
+</html>
